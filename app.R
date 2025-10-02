@@ -130,7 +130,7 @@ ui <- fluidPage(theme = shinytheme("yeti"),
                         ),
                         
                         tags$hr(),
-                        p("For questions, contact: bpfahey@asu.com")
+                        
                       )
              )
              
@@ -435,3 +435,4 @@ server <- function(input, output, session) {
 
 # ------------------- Create Shiny app -------------------
 shinyApp(ui = ui, server = server)
+
